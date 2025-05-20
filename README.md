@@ -85,7 +85,7 @@ Now You should be all set for installation :smile:
 
 In order for you to use the application, you need to place the JDBC Driver inside the root of the project.
 It should look something like this:
-[![Structure Screen Shot][structure-screenshot]]
+![Structure Screen Shot][structure-screenshot]
 
 Second step is modifying this line in SQL/SQLManager.java according to the structure above
 ```sh
@@ -93,6 +93,7 @@ private static final String DB_URL = "jdbc:postgresql://localhost:5432/rcldb";
 ``` 
 
 Now all that's left is compiling the application :smile:
+
 ⚠️ Replace `"postgresql-42.7.5.jar"` with your JDBC Driver
 ```sh
 javac -cp "postgresql-42.7.5.jar" application/*.java SQL/*.java
@@ -125,10 +126,10 @@ Now you can start typing queries into your database :smile:
 
 Some inspiration sources I took as examples in the process of implementing this application:
 
-[README template](https://github.com/othneildrew/Best-README-Template)
-[Establishing JDBC Connection](https://www.geeksforgeeks.org/establishing-jdbc-connection-in-java/)
-[Installing and setting up PostgreSQL](https://www.w3schools.com/postgresql/postgresql_install.php)
-[UDP Application Model](https://github.com/aclblaj/bsp-rn)
+* [README template](https://github.com/othneildrew/Best-README-Template)
+* [Establishing JDBC Connection](https://www.geeksforgeeks.org/establishing-jdbc-connection-in-java/)
+* [Installing and setting up PostgreSQL](https://www.w3schools.com/postgresql/postgresql_install.php)
+* [UDP Application Model](https://github.com/aclblaj/bsp-rn)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
