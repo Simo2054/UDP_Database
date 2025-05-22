@@ -75,8 +75,11 @@ Now You should be all set for installation :smile:
     ```
 2. Change git remote URL to avoid accidental pushes to base project
     ```sh
-    git remote set-url origin github_username/repo_name
-    git remote -v # confirm the changes
+    # Change the remote URL to your own fork (replace YOUR_USERNAME)
+    git remote set-url origin https://github.com/YOUR_USERNAME/UDP_Database.git
+    
+    # Confirm the remote URL has been updated
+    git remote -v
     ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
